@@ -1,0 +1,19 @@
+body {
+    background-image: linear-gradient(pink, rgb(248, 136, 215));
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 1000px;
+}
+
+.glass-container{
+    position: relative;
+    width: 300px;
+    padding: 40px;
+    border-radius: 20px; 
+    backdrop-filter: blur(5px);
+    background: rgb(170, 255, 222);
+    border: 1px solid grey;
+    box-shadow: 0 25px 45px black;
+    z-index: 10; 
+    overflow: hidden;
+}
